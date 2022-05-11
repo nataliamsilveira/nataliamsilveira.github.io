@@ -9,49 +9,105 @@
             padding: 50px;
         }
 
-        img 
-        {
-            border-radius: 50%;
+        .header{
+            background-color: #F2F2F2;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 25px;
+        }
+
+        .logo{
+            width: 100px;
+            height: auto;
+        }
+
+        .navbar {
+            display: flex;
+            gap: 15px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .main-content{
+            background-color: #3F4859;
+            color: #F2F2F2;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            gap:20px;
+        }
+
+        .profile-pic{
             width: 250px;
-            float: left;
-            padding: 20px;
+            height: auto;
+            padding: 40px;
+            float: right;
         }
 
-        .habilidade 
-        {
-            padding-left: 15px;
+        .profile-name{
+            font-weight: 800;
         }
 
-        .profile {
-            width: 60%;
-            top: 70px;
-            left: 300px;
-            position: absolute;
+        .profile-text{
+            width: 300px;
+            margin-top: -20px;
+        }
+
+        .content-extra{
+            background-color: #8090A6;
+            color: #F2F2F2;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items:flex-start;
+            padding: 30px;
+            gap: 10px;
+        }
+
+        .projects{
+            text-align: center;
             
         }
 
-        h1, h2, h3 {
-            color: #0367A6;
+        h2{
+            font-weight:bolder;
         }
 
-        .image-container 
-        {
-            height: 300px;
-            position: relative;
-        }
 
-        p {
-            width: 80%;
-        }
-
-        .header{ 
+        .img-projects{
+            width: 300px;
             display: flex;
-            gap: 500px; 
-            align-items: baseline;
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
+            border-radius: 20px;
         }
 
-        .menu{
+        .more{
+            background-color: #3F4859;
+            color: #F2F2F2;
             display: flex;
-            gap: 20px;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items:center;
+            padding: 30px;
+        }
+
+        .content-text{
+            font-weight: 400;
+            font-size: 15px;
+            color: #F2F2F2;
+            width: 500px;
+        }
+
+        .social-media-img{
+            width: 100px;
+            text-align: center;
         }
 
